@@ -1094,7 +1094,7 @@ i {
 }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1270px and up) */
 @media only screen and (min-width: 1270px) {
   body {
     overflow-x: hidden;
@@ -1380,7 +1380,7 @@ video{
 
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1290px and up) */
 @media only screen and (min-width: 1290px) {
   body {
     overflow-x: hidden;
@@ -1390,10 +1390,11 @@ video{
   /* Section Navbar */
   .navbar-home {
     transform: translateY(-35%);
+    
   }
   #condfelogo-home {
-    width: 40%;
-    height: 40%;
+    width: 60%;
+    height: 60%;
     transform: translateY(0);
 
   }
@@ -1627,6 +1628,7 @@ video{
     background-color: #D89BF6;
     text-align: right;
     padding: 5px;
+    overflow: hidden;
     
   }
 
@@ -1635,7 +1637,7 @@ video{
 
   }
 .text-left{
-  font-size: 50px;
+  font-size: 40px;
   text-align: left;
   font-weight: bold;
   transform: translateY(150%);
@@ -1669,6 +1671,7 @@ video{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     text-align: right;
+    overflow: hidden;
   }
   .credit{
     font-size: 16px;
