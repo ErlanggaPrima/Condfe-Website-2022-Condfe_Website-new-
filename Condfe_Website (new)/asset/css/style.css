@@ -1390,10 +1390,11 @@ video{
   /* Section Navbar */
   .navbar-home {
     transform: translateY(-35%);
+    
   }
   #condfelogo-home {
-    width: 41%;
-    height: 41%;
+    width: 60%;
+    height: 60%;
     transform: translateY(0);
 
   }
@@ -1680,3 +1681,4 @@ video{
 
   }
 }
+
