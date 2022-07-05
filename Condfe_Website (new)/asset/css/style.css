@@ -29,7 +29,7 @@ p{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
   }
-
+  
   /* Section Navbar */
   .navbar-brand {
     width: 250px;
@@ -111,7 +111,7 @@ p{
 .photo {
   width: 160px;
   height: 160px;
-  padding: -100px;
+  padding: 0px;
   margin: 5px;
   justify-content: center;
   transform: translateX(-10%);
@@ -219,6 +219,7 @@ video{
 width: 325px;
 height: 200px;
 transform: translateY(20%);
+margin-left: 0px;
 }
 
 .text-video{
@@ -291,17 +292,24 @@ font-family: 'Poppins', sans-serif;
 
   /* Section Navbar */
   .navbar-brand {
-    width:80%;
+    width: 420px;
+    
   }
-
+.navbar-toggler{
+  transform: translateY(-70%);
+  margin-right: 15px;
+  
+}
   .navbar-home {
-    transform: translateY(-10%);
+    transform: translateY(-5%);
   }
   #condfelogo-home {
-    width: 45%;
-    height: 45%;
-    transform: translateX(-15%);
+    width: 35%;
+    height: 35%;
+    transform: translateY(-25%);
+    margin-left: -20px;
   }
+
   /* Section Header Home */
   .banner-image {
     background-image: url("/asset/img/giff.png");
@@ -312,10 +320,6 @@ font-family: 'Poppins', sans-serif;
     height: 100vh;
   }
 
-  #condfelogo-home {
-    width: 15%;
-    height: 15%;
-  }
 
   /* Section Photo Header */
   .items {
@@ -479,6 +483,8 @@ video{
   height: 250px;
   transform: translateY(30%);
   padding-left: 20px;
+margin-left: 0px;
+
 }
 
 .text-video{
@@ -903,7 +909,7 @@ video{
     transform: translateX(7%);
     
   }
-.main-photo{
+/* .main-photo{
   padding: 20px;
   margin: 80px;
 }
@@ -915,7 +921,7 @@ video{
   margin: 0px;
   padding: 5px;
   
-}
+} */
 
 /* Condfess */
 .condfess{
@@ -1179,7 +1185,7 @@ i {
     
   }
    
-  .main-photo{
+  /* .main-photo{
     padding: 80px;
     margin: 80px;
   }
@@ -1191,7 +1197,7 @@ i {
     margin: 0px;
     padding: 5px;
     
-  }
+  } */
 
  /* Condfess */
  .condfess{
@@ -1381,6 +1387,7 @@ video{
 
 
 /* Extra large devices (large laptops and desktops, 1290px and up) */
+/* disini */
 @media only screen and (min-width: 1290px) {
   body {
     overflow-x: hidden;
