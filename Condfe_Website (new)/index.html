@@ -14,14 +14,62 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <title>Company Profile | Condfe</title>
 </head>
 
 <body>
   
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a class="nav-link active " href="#">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#woman">Woman@Condfe</a>
+        <a class="nav-link" href="#condfess">Condfess</a>
+        <a class="nav-link" href="#contact">Contact</a>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+            <img src="/asset/img/condfe_logo/Condfe.png" id="navbarImg" alt="">
+        </a>
+        <div class="top-btn">
+            <button class="btn btn-nav" onclick="openNav() " type="button "><i class="fas fa-bars"></i>
+        </div>
+    </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto " style="margin: 0;">
+                    <li class="nav-item ">
+                        <a class="nav-link active " href="# ">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#about">About</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="#woman">Women@Condfe</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link " href="#condfess">Condfess</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link " href="#contact">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+</nav>
+<!-- End -->
   <!-- Navbar  -->
-  <nav class="navbar-home navbar fixed-top navbar-expand-lg navbar-dark">
+  <!-- <nav class="navbar-home navbar fixed-top navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="./asset/img/condfe_logo/Condfe.png" alt="logo" id="condfelogo-home" />
@@ -52,7 +100,7 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
   <!-- Navbar End -->
 
   <!-- Header Home -->
@@ -96,7 +144,7 @@
   <section class="main-home" id="about">
     <div class="container">
       <div class="row row-text ">
-        <div class="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 text-light" id="main-text">
+        <div class="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 text-light order-lg-1 order-md-1 order-2" id="main-text">
           <p class="main-text" id="about-condfe">About Condfe</p>
           <p class="main-text">
             Condfe is a special and safe space created for women, by women. We are here to be the best friend who
@@ -104,7 +152,7 @@
             insightful, and fulfilling your interest.
           </p>
         </div>
-        <div class="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+        <div class="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 order-lg-2 order-1">
           <img class="img-main" src="./asset/img/home-foto.png" alt="" />
 
         </div>
@@ -117,7 +165,7 @@
     </div>
   </section>
 
-  <section class="main-photo" id="woman">
+  <!-- <section class="main-photo" id="woman">
     <div class="container">
       <div class="row-photo row">
         <h1 class="text-center">Women@Condfe</h1>
@@ -152,7 +200,41 @@
           <img class="photo" src="http://placehold.jp/150x150.png" alt="" />
         </div>
 
-  </section>
+        
+  </section> -->
+
+  <section id="woman">
+      <div class="container">
+    <div class="row row-tes">
+        <h1 class="text-center mt-5">Woman@Condfe</h1>
+        <p class="text-center">Woman@Condfe</p>
+        <div class="col-md-3 mt-2  col-lg-3 col-6 col-sm-6">
+            <img src="http://placehold.jp/150x150.png" class="img-tes" alt="image">
+        </div>
+        <div class="col-md-3 mt-2 col-lg-3 col-6 col-sm-6">
+            <img src="http://placehold.jp/150x150.png" class="img-tes" alt="image">
+        </div>
+        <div class="col-md-3 mt-2 col-lg-3 col-6 col-sm-6">
+            <img src="http://placehold.jp/150x150.png" class="img-tes" alt="image">
+        </div>
+        <div class="col-md-3 mt-2 col-lg-3 col-6 col-sm-6">
+            <img src="http://placehold.jp/150x150.png" class="img-tes" alt="image">
+        </div>
+        <div class="col-md-3 mt-2 col-lg-3 col-6 col-sm-6">
+            <img src="http://placehold.jp/150x150.png" class="img-tes" alt="image">
+        </div>
+        <div class="col-md-3 mt-2 col-lg-3 col-6 col-sm-6">
+            <img src="http://placehold.jp/150x150.png" class="img-tes" alt="image">
+        </div>
+        <div class="col-md-3 mt-2 col-lg-3 col-6 col-sm-6">
+            <img src="http://placehold.jp/150x150.png" class="img-tes" alt="image">
+        </div>
+        <div class="col-md-3 mt-2 col-lg-3 col-6 col-sm-6">
+            <img src="http://placehold.jp/150x150.png" class="img-tes" alt="image">
+        </div>
+    </div>
+</div>
+</section>
 
   <!-- Condfess -->
 
@@ -168,7 +250,7 @@
             tentang keluarga lo juga bisa ceritain semuanya disini! jadi gak usah malu-malu yaaa!</p>
             
           <!-- MODAL -->
-          <button type="button" class="button-flat-outline" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          <button type="button" class="button-flat-outline col-11 col-sm-12 col-md-7 col-lg-5 col-xl-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
             data-bs-whatever="@mdo">Condfess disini</button>
           <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -281,7 +363,7 @@
   <section class="video" id="contact">
     <div class="container">
       <div class="row row-video">
-        <div class="col col-12 col-xl-6 col-lg-6 col-sm-6 ">
+        <div class="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
           <video controls>
             <source src="" type="video/mp4" class="video">
             <source src="" type="video/ogg" class="video">
