@@ -32,3 +32,12 @@ form.addEventListener('submit', e => {
 
     .catch(error => console.error('Error!', error.message))
 })
+
+// tes navbar 
+function openNav() {
+  document.getElementById("myNav").style.width = "30%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
