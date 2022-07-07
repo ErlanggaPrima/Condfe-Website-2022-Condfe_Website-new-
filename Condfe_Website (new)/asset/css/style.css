@@ -71,7 +71,7 @@ nav {
   z-index: 9999999;
   top: 0;
   left: 0;
-  background: #d89bf6;
+  background: rgba(0, 0, 0, 0.5);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -87,12 +87,14 @@ nav {
 }
 
 .overlay a {
-  padding: 8px;
+  padding: 18px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 30px;
   color: WHITE;
   display: block;
-  transition: 0.3s;
+  transition: 0.4s;
+  font-family: "Poppins", sans-serif;
+
 }
 
 a.nav-link.active {
@@ -158,6 +160,7 @@ a.nav-link:hover {
     left: 0;
     overflow-x: hidden;
     transition: 0.5s;
+
   }
 
   .overlay-content {
@@ -168,15 +171,18 @@ a.nav-link:hover {
     margin-top: 30px;
     animation-name: example;
     animation-duration: 4s;
+
   }
 
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 15px;
+
     color: WHITE;
     display: block;
     transition: 0.3s;
+
   }
 
   a.nav-link.active {
@@ -465,6 +471,18 @@ a.nav-link:hover {
   .top-btn {
     display: contents;
   }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+
+    color: WHITE;
+    display: block;
+    transition: 0.3s;
+
+  }
+
   .img-tes {
     width: 100%;
     height: auto;
