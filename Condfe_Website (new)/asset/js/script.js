@@ -13,7 +13,7 @@ form.addEventListener('submit', e => {
   // tampilkan tombol loading hilangkan tombol kirim 
   btnLoading.classList.toggle('d-none');
   btnKirim.classList.toggle('d-none');
-
+  
   fetch(scriptURL, {
       method: 'POST',
       body: new FormData(form)

@@ -18,11 +18,12 @@
 }
 
 .overlay-text h1{
-  font-family: "Poppins", sans-serif;
+  font-family:cursive;
   font-size: 5rem;
   color: white;
+  text-shadow: 5px 5px #d89bf6;
 }
-.swiper-container .swiper-pagination-bullet-active {
+/* .swiper-container .swiper-pagination-bullet-active {
   background-color: #fff !important;
   width: 20px;
   height: 20px;
@@ -43,7 +44,7 @@
   outline: none !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-}
+} */
 
 .swiper-container .swiper-slide {
   -webkit-transform: translate3d(0, 0, 0) !important;
@@ -74,12 +75,6 @@
   text-transform: capitalize;
 }
 
-@media all and (max-width: 750px) {
-  .swiper-container .swiper-slide .overlay h1 {
-    font-size: 2rem;
-  }
-}
-
 .swiper-container .swiper-slide .overlay button {
   border: none;
   background: #303030;
@@ -93,11 +88,7 @@
   margin-top: 10px;
 }
 
-@media all and (max-width: 750px) {
-  .swiper-container .swiper-slide .overlay button {
-    font-size: 16px;
-  }
-}
+
 
 .swiper-container .swiper-slide .overlay button:hover {
   background: rgba(48, 48, 48, 0.5);
@@ -110,14 +101,14 @@
           box-shadow: none !important;
 }
 
-@media all and (max-width: 800px) {
+/* @media all and (max-width: 800px) {
   .swiper-container .swiper-slide-2 {
     background-position: left;
   }
   .swiper-container .swiper-slide-3 {
     background-position: right;
   }
-}
+} */
 
 
 
@@ -128,15 +119,18 @@ body {
 p {
   font-family: "Poppins", sans-serif;
 }
+
 #navbarImg {
   width: 200px;
   height: 200px;
 }
+
 .header-item {
   background-color: #f3f3f3;
   height: 35px;
   color: rgb(0, 0, 0);
 }
+
 .title-image {
   transform: translateY(20%);
   padding-left: 20px;
@@ -150,12 +144,14 @@ nav {
   margin: 0;
   transform: translateY(-30%);
 }
+
 .img-tes {
   width: 100%;
   height: auto;
   padding: 0;
   margin: 0;
 }
+
 .row-tes {
   padding: 100px;
   padding-top: 100px;
@@ -194,7 +190,7 @@ nav {
   z-index: 9999999;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -221,12 +217,12 @@ nav {
 }
 
 a.nav-link.active {
-  text-decoration: underline;
   color: white;
 }
 
 a.nav-link:hover {
-  text-decoration: underline;
+  text-decoration:double;
+  color: #ebc7fd;
 }
 
 .overlay .closebtn {
@@ -300,7 +296,7 @@ a.nav-link:hover {
   .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 12px;
 
     color: WHITE;
     display: block;
@@ -413,24 +409,22 @@ a.nav-link:hover {
     transform: translateY(15%);
     text-align: left;
   }
-  .main-photo {
-    padding: 20px;
-  }
-  .photo {
+
+  /* .photo {
     width: 160px;
     height: 160px;
     padding: 0px;
     margin: 5px;
     justify-content: center;
     transform: translateX(-10%);
-  }
+  } */
 
   /* Condfess */
   .condfess {
     background-image: url("/asset/img/texture-bg.png");
     color: white;
-    padding-bottom: 60px;
-    padding-top: 60px;
+    padding-bottom: 130px;
+    padding-top:130px;
   }
   .condfess-text {
     font-family: "Poppins", sans-serif;
@@ -686,7 +680,7 @@ a.nav-link:hover {
   .img-main {
     width: 100%;
     height: auto;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
   }
 
@@ -695,7 +689,7 @@ a.nav-link:hover {
     transform: translateY(10%);
     text-align: left;
   }
-  .main-photo {
+  /* .main-photo {
     padding: 50px;
   }
   .photo {
@@ -705,7 +699,7 @@ a.nav-link:hover {
     margin: 10px;
     justify-content: center;
     transform: translateX(-6%);
-  }
+  } */
 
   /* Condfess */
   .condfess {
@@ -943,7 +937,7 @@ a.nav-link:hover {
     padding-right: 2px;
   }
 
-  .main-photo {
+  /* .main-photo {
     padding: 70px;
     margin: 10px;
   }
@@ -954,7 +948,7 @@ a.nav-link:hover {
     transform: translateX(-10%);
     margin: 0px;
     padding: 5px;
-  }
+  } */
 
   /* Condfess */
   .condfess {
@@ -1470,7 +1464,7 @@ a.nav-link:hover {
   #main-text {
     transform: translateX(9%);
   }
-
+/* 
   .main-photo {
     padding: 80px;
     margin: 80px;
@@ -1482,7 +1476,7 @@ a.nav-link:hover {
     transform: translateX(-10%);
     margin: 0px;
     padding: 5px;
-  }
+  } */
 
   /* Condfess */
   .condfess {
@@ -1746,7 +1740,7 @@ a.nav-link:hover {
   #main-text {
     transform: translateX(0%);
   }
-
+/* 
   .main-photo {
     padding: 100px;
     margin: 50px;
@@ -1759,7 +1753,7 @@ a.nav-link:hover {
     height: 370px;
     margin: 0px;
     padding: 5px;
-  }
+  } */
 
   /* Condfess */
   .condfess {
